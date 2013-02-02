@@ -3,6 +3,8 @@ class SurveyTemplate < ActiveRecord::Base
   attr_accessible :nome, :attivo, :categoria, :descrizione
   has_many :survey_template_lines , :dependent => :destroy
   has_many :survey_responses
+  attr_accessible :linee_guida
+  has_attached_file :linee_guida
 
   def self.init_survey
     SurveyTemplate.destroy_all

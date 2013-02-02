@@ -23,6 +23,13 @@
       <%= f.text_field :descrizione, :class => 'input-block-level' %>
     </div>
   </div>
+  <div class="control-group">
+    <%= f.label :linee_guida, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.file_field :linee_guida, :class => '' %>
+      <%= link_to "Download #{@survey_template.linee_guida_file_name}", @survey_template.linee_guida.url if !@survey_template.linee_guida_file_name.blank? %>
+    </div>
+  </div>
   <%unless  @survey_template.new_record?%>
     <div class="row">
       <h4><%=t "Campi"%></h4>
