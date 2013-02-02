@@ -1,12 +1,12 @@
 development:
   domain: localhost:3000
   tipodomande: testuale,numerico
-  um: Nr,%,€
+  #um: "?", "n°", "%", "giorni", "mesi", "Nr"
 test:
   domain: test.host
   tipodomande: testuale,numerico
-  um: Nr,%,€
+  #um: Nr,%,€
 production:
   domain: example.com
   tipodomande: testuale,numerico
-  um: Nr,%,€
+  #um: Nr,%,€

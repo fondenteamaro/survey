@@ -4,7 +4,10 @@ Survey::Application.routes.draw do
     get :all, :on=>:collection
   end
 
-  resources :survey_template_lines
+  resources :survey_template_lines  do
+    get :move_up, :on=>:member
+    get :move_down, :on=>:member
+  end
 
   resources :survey_templates do
     get :export, :on=>:member

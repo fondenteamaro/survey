@@ -2,77 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7daccfe-7401-4488-bea3-5a011bca1996" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C29/8A0/sprockets%2Fa899e19256a0845205636938010c6fe5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C62/1D0/sprockets%2F1638f87db345b13872695759502b54fe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C7A/170/sprockets%2Ff1663d34d4b6003379113df98f1433a5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C87/D30/sprockets%2Fde16f881902527d1914c6731e18aa767" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C8F/5C0/sprockets%2Fe97ab89756ae1809461c55073294ea09" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CBD/D00/sprockets%2Fe3f8364c2b4d83385c04d49c7109f639" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CCE/470/sprockets%2F24b5e5e01ded006612e61c2047b7f581" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CD7/6F0/sprockets%2Fbd3936370d0f952ada5774e2230046ed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CD8/370/sprockets%2F357970feca3ac29060c1e3861e2c0953" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CDC/B50/sprockets%2Fc06386ca78e2481611ce70ed129c52a8" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CDE/910/sprockets%2Fc5aafc8087f52a7d4231339e94650a44" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CE0/CC0/sprockets%2F2b38c3fb549036de5c4666637a0c80c6" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CED/6C0/sprockets%2F3cc6d3628f7706597f2cc8a90a273d92" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CF4/140/sprockets%2F22a3157d204c1f8e417a25f01a2dbe45" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CF8/710/sprockets%2F420eb81004224df2a198ad5e4e35ae41" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D05/6B0/sprockets%2Fba302e5e48f3a48619a53be4b0894b12" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D0E/190/sprockets%2F671c8c5c856ee28b1509d4c4a4a049d0" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D0F/3E0/sprockets%2F6654975eaa53a225d976278fcb6baa00" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D14/810/sprockets%2F8a95ea36adb71f326817e58f437d052a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D16/BF0/sprockets%2F40c67360e98d92356e04e0c2dde2bf79" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D17/4C0/sprockets%2F700827acd727b6fc8361f454c68a5cd7" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D21/EB0/sprockets%2F8ca4361726ccc72b26b98995711ff7fd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D24/500/sprockets%2F5487a5eae905cd8f767d5a98e152b653" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D28/210/sprockets%2Ffbba61c3312004d305da7fac36964c36" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D32/060/sprockets%2Ff7b5333cdc6d68777ec849796296da5d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D32/A10/sprockets%2F13fe41fee1fe35b49d145bcc06610705" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D34/E60/sprockets%2Fc0d7920af5b1f8b963c351e22b3f0b84" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D3D/2B0/sprockets%2Ff4103e8369e7c5ec06f0641a9cea5e13" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D3D/400/sprockets%2F701ee7fffaf4894b47e08db0601802d1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D3F/BC0/sprockets%2F38e0d151f1f58d651a70dc6cc8a298e2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D4A/A80/sprockets%2F2a8bc9a107e4ef9278f173bd5bd20989" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D4E/1B0/sprockets%2Ff7cbd26ba1d28d48de824f0e94586655" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D5A/EA0/sprockets%2Fd771ace226fc8215a3572e0aa35bb0d6" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D5B/4F0/sprockets%2F57f946f8afa908b9c771f9c48330dde5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D5F/EF0/sprockets%2Fd2314cde5bcef18a70c543a267c702e3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D62/210/sprockets%2F0c9f5a68e10c76b2d39acc37bb242e22" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D74/840/sprockets%2Fa779c39b918fdf6d4721053dcdd24ac4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D78/4E0/sprockets%2Ff63e922c2938d25afea48716b75ff1ad" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D7E/FD0/sprockets%2F8875039f0f1823eeec2f4e0e7fff3f06" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D8D/F10/sprockets%2F6c8cd31de2f74bb32b3262a2b5b046fe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D96/C60/sprockets%2F1085d54195fc4efcbd13ac264abc529e" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D9F/F20/sprockets%2Fbec7e8c2651f93cfea9068c20d34b2c5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DA4/0F0/sprockets%2Ff06749d7925c0f44082ddcd57cfeda0d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DB0/7D0/sprockets%2Fbcda2968faefa298e75d0419b60d96d9" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DC1/5A0/sprockets%2Ff86d6f88efd76632c4affbf6c788109d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DCD/CC0/sprockets%2Fa1fadf718ce6e046dd85b85cd5044bd3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DD1/5A0/sprockets%2Fd8812656f735cce6758d7b7baacabd0a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DD1/700/sprockets%2F4adfc43cef72d531670b7980bdbd6e9a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DD1/830/sprockets%2F71df84fe24b2c7d34af59e9e62aa50db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DD4/890/sprockets%2Fe4473fb1077b8df0aaca56ec93fd928d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DD7/950/sprockets%2F3665aa30fefe8e40fe1f86cc5f90de35" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DDC/400/sprockets%2Fcffd775d018f68ce5dba1ee0d951a994" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DDC/E20/sprockets%2F93b9fc7932ddf0c4fb7944ed0b77ab4f" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/E01/000/sprockets%2Fb617f7774ecf2555ccddc28cebc512dc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/E04/890/sprockets%2F2f5173deea6c795b8fdde723bb4b63af" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/E0B/670/sprockets%2F13ba4c9c5a3ddbab223f131b0cb95faa" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/E19/2A0/sprockets%2F10fcfbe6ebae11a40c8eac41939a1b9a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/E22/5E0/sprockets%2F5b911554d03eb5bc0d7bc5fbfbb6bec7" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/E3B/080/sprockets%2F09e2a090befacdae0db10cafb1893a0a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/sass/0d4c9f0d2b0d6f87f14484a1d4e3ecbe0e5806d3/scaffolds.css.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/sass/0d4c9f0d2b0d6f87f14484a1d4e3ecbe0e5806d3/survey_responses.css.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/sass/3ce14b5d9f3bf1a09c6c8c12cf22e1241988e10e/home.css.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/pids/server.pid" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130202152531_add_netsed_to_survey_template_line.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/survey_template_lines/new_group.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/survey.iml" afterPath="$PROJECT_DIR$/.idea/survey.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/survey_responses_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/survey_responses_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/survey_template_lines_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/survey_template_lines_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/survey_templates_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/survey_templates_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/survey_response.rb" afterPath="$PROJECT_DIR$/app/models/survey_response.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/survey_template.rb" afterPath="$PROJECT_DIR$/app/models/survey_template.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/survey_template_line.rb" afterPath="$PROJECT_DIR$/app/models/survey_template_line.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/survey_responses/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/survey_responses/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/survey_responses/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/survey_responses/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/survey_template_lines/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/survey_template_lines/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/survey_template_lines/new.html.erb" afterPath="$PROJECT_DIR$/app/views/survey_template_lines/new.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/survey_templates/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/survey_templates/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/survey_templates/index.html.erb" afterPath="$PROJECT_DIR$/app/views/survey_templates/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app_config.yml" afterPath="$PROJECT_DIR$/config/app_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130202152531_add_netsed_to_survey_template_line.rb" afterPath="$PROJECT_DIR$/db/migrate/20130202152531_add_netsed_to_survey_template_line.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
     </list>
     <ignored path="survey.iws" />
@@ -92,48 +41,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="survey_templates_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/survey_templates_controller.rb">
+      <file leaf-file-name="survey_template.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/survey_template.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="29" selection-start="1665" selection-end="1665" vertical-scroll-proportion="0.0">
+            <state line="5" column="33" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#59#1622#0" expanded="false" />
+                <element signature="e#305#13025#0" expanded="false" />
+                <element signature="e#13028#18519#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="survey_template.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/survey_template.rb">
+      <file leaf-file-name="survey_responses_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/survey_responses_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="21" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+            <state line="4" column="29" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1114#1763#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="survey_templates_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/survey_templates_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="30" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.25158563">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="survey_template_line.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/survey_template_line.rb">
+      <file leaf-file-name="format.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/spreadsheet-0.7.7/lib/spreadsheet/format.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
+            <state line="31" column="61" selection-start="1495" selection-end="1504" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="datatypes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/spreadsheet-0.7.7/lib/spreadsheet/datatypes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="27" selection-start="371" selection-end="371" vertical-scroll-proportion="0.53911203">
+            <state line="18" column="58" selection-start="715" selection-end="719" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/survey_templates/_form.html.erb">
+      <file leaf-file-name="font.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/spreadsheet-0.7.7/lib/spreadsheet/font.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="68" selection-start="1092" selection-end="1092" vertical-scroll-proportion="-9.153846">
+            <state line="68" column="13" selection-start="2349" selection-end="2356" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,9 +118,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/app/views/survey_templates/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/survey_template_lines_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/survey_template_lines/new_group.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/survey_template_lines/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/survey_template_line.rb" />
+        <option value="$PROJECT_DIR$/config/app_config.yml" />
+        <option value="$PROJECT_DIR$/app/views/survey_template_lines/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/survey_responses/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/survey_responses/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/survey_responses_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/survey_responses/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/survey_response.rb" />
         <option value="$PROJECT_DIR$/app/models/survey_template.rb" />
-        <option value="$PROJECT_DIR$/app/views/survey_templates/_form.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/controllers/survey_templates_controller.rb" />
       </list>
     </option>
   </component>
@@ -253,6 +227,66 @@
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="survey" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="survey" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Config" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ConfigFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="survey" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="survey" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ModelsFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="survey" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="survey" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ControllersFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="survey" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="survey" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ApplicationFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApplicationController" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.ControllerClassNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -282,6 +316,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
@@ -427,7 +462,11 @@
       <created>1359817965820</created>
       <updated>1359817965820</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit iniziale">
+      <created>1359818805293</created>
+      <updated>1359818805293</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -435,15 +474,15 @@
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32884097" sideWeight="0.49227798" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32884097" sideWeight="0.48970398" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.671159" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.671159" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32884097" sideWeight="0.5032175" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.497426" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32884097" sideWeight="0.5057915" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.494852" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -508,46 +547,119 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/survey_templates/edit.html.erb">
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/helpers/form_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="170" selection-end="170" vertical-scroll-proportion="0.15212528">
+        <state line="963" column="22" selection-start="43583" selection-end="43583" vertical-scroll-proportion="0.5173913">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/survey_templates/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="68" selection-start="1092" selection-end="1092" vertical-scroll-proportion="-9.153846">
+        <state line="16" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.65700483">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="2" selection-start="654" selection-end="654" vertical-scroll-proportion="0.53911203">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/survey_response.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="52" selection-start="246" selection-end="256" vertical-scroll-proportion="0.07505519">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/survey_responses/all.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="21" selection-start="809" selection-end="809" vertical-scroll-proportion="0.3176734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/survey_responses/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="26" selection-start="289" selection-end="289" vertical-scroll-proportion="0.1901566">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/survey_responses/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.1901566">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/survey_responses/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="70" selection-start="3043" selection-end="3043" vertical-scroll-proportion="0.31543624">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/survey_template.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="33" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#305#13025#0" expanded="false" />
+            <element signature="e#13028#18519#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/spreadsheet-0.7.7/lib/spreadsheet/font.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="13" selection-start="2349" selection-end="2356" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/survey_responses_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="29" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1114#1763#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/spreadsheet-0.7.7/lib/spreadsheet/helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/spreadsheet-0.7.7/lib/spreadsheet/row.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/spreadsheet-0.7.7/lib/spreadsheet/format.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="61" selection-start="1495" selection-end="1504" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/spreadsheet-0.7.7/lib/spreadsheet/datatypes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="58" selection-start="715" selection-end="719" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/survey_templates_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="29" selection-start="1665" selection-end="1665" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#59#1622#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/survey_template.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/survey_template_line.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="371" selection-end="371" vertical-scroll-proportion="0.53911203">
+        <state line="53" column="30" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.25158563">
           <folding />
         </state>
       </provider>

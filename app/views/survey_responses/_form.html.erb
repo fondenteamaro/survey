@@ -1,4 +1,4 @@
-<%= form_for @survey_response, :html => { :class => 'form-horizontal' } do |f| %>
+<%= form_for @survey_response, :html => { :class => 'form-horizontal', :id=>"survey_form" } do |f| %>
   <%= f.hidden_field :survey_template_id, :class => 'number_field' %>
   <%= f.hidden_field :user_id, :class => 'number_field' %>
   <%= f.hidden_field :azienda, :class => 'number_field' %>
@@ -43,30 +43,27 @@
       <%= f.date_select :data_compilazione, :class => 'date_select' %>
     </div>
   </div>
-  <%gruppo = ""%>
+
   <%= f.fields_for :survey_response_lines do |line| %>
         <%=line.hidden_field :survey_template_line_id%>
-
-        <% unless line.object.gruppo.eql?(gruppo)%>
-           <%= content_tag :h3, line.object.gruppo, :class=>"label "  %>
-           <% gruppo=line.object.gruppo  %>
-
-        <%end%>
-
+        <% if line.object.domanda.blank?%>
+           <%= content_tag :h4, line.object.gruppo, :class=>" "  %>
+        <%else%>
         <div class="control-group">
           <%= line.label :risposta, line.object.domanda, :class => ' span6' %>
           <div class="controls">
             <div class="input-prepend">
               <%=content_tag :span, line.object.um, class: "add-on"%>
-              <%if line.object.tipo_dato === "numerico"%>
-                <%= line.text_field :risposta, :class => 'number_field' %>
+              <%if line.object.tipo_dato.eql?("numerico")%>
+                <%= line.text_field :risposta, :class => 'number_field float' %>
               <%else%>
                 <%= line.text_field :risposta, :class => 'text_field' %>
               <%end%>
+              <span class="help-inline"></span>
             </div>
           </div>
-
         </div>
+        <%end%>
   <%end%>
 
   <div class="form-actions">
@@ -75,3 +72,25 @@
                 survey_responses_path(:survey_template_id=>@survey_response.survey_template_id), :class => 'btn' %>
   </div>
 <% end %>
+<script>
+
+    $(function() {
+        $("#survey_form").submit(function(event) {
+            jQuery.each($(".float"), function() {
+                if (this.value == "")
+                {}
+                else if (this.value.match("[-+]?[0-9]*,?[0-9]+")==null)
+                {
+                    alert ("verificare i campi numerici! ");
+                    event.preventDefault();
+                    this.focus() ;
+                    return false;
+                }
+
+            });
+        });
+    });
+
+
+
+</script>

@@ -17,7 +17,7 @@
   <tbody>
     <% @survey_templates.each do |survey_template| %>
       <tr>
-        <td><%= link_to survey_template.id, survey_template_path(survey_template) %></td>
+        <td><%= link_to survey_template.id, edit_survey_template_path(survey_template) %></td>
         <td><%= survey_template.nome %></td>
         <td><%= survey_template.attivo %></td>
         <td><%= survey_template.categoria %></td>

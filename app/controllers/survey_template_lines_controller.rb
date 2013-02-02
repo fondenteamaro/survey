@@ -1,4 +1,15 @@
 class SurveyTemplateLinesController < ApplicationController
+
+  def move_up
+    @survey_template_line = SurveyTemplateLine.find(params[:id])
+    @survey_template_line.move_left
+    redirect_to edit_survey_template_path(@survey_template_line.survey_template), :notice => "spostamento eseguito correttamente."
+  end
+  def move_down
+    @survey_template_line = SurveyTemplateLine.find(params[:id])
+    @survey_template_line.move_right
+    redirect_to edit_survey_template_path(@survey_template_line.survey_template), :notice => "spostamento eseguito correttamente."
+  end
   def index
     @survey_template_lines = SurveyTemplateLine.all
   end
@@ -8,6 +19,9 @@ class SurveyTemplateLinesController < ApplicationController
   end
 
   def new
+    @survey_template_line = SurveyTemplateLine.new(:survey_template_id=>params[:survey_template_id])
+  end
+  def new_group
     @survey_template_line = SurveyTemplateLine.new(:survey_template_id=>params[:survey_template_id])
   end
 
@@ -22,6 +36,11 @@ class SurveyTemplateLinesController < ApplicationController
 
   def edit
     @survey_template_line = SurveyTemplateLine.find(params[:id])
+    if @survey_template_line.root?
+      render :new_group
+    else
+      render :edit
+    end
   end
 
   def update

@@ -14,7 +14,12 @@ class SurveyResponsesController < ApplicationController
   def index
     template=params[:survey_template_id]
     @survey_template=SurveyTemplate.find(template)
-    @survey_responses = SurveyResponse.where(:survey_template_id=>@survey_template.id)
+    if current_user.is_admin?
+      @survey_responses = SurveyResponse.where(:survey_template_id=>@survey_template.id)
+    else
+      @survey_responses = SurveyResponse.where(:survey_template_id=>@survey_template.id, :user_id => current_user.id)
+    end
+
 
     respond_to do |format|
       format.html # index.html.erb
@@ -39,8 +44,12 @@ class SurveyResponsesController < ApplicationController
     template=params[:survey_template_id]
     @survey_template=SurveyTemplate.find(template)
     @survey_response = SurveyResponse.new(:survey_template_id => @survey_template.id, :user_id=>current_user.id, :azienda=>current_user.username)
-    @survey_template.survey_template_lines.each do |line|
-      @survey_response.survey_response_lines.build(:survey_template_line_id=>line.id)
+    @survey_template.survey_template_lines.roots.each do |r|
+      @survey_response.survey_response_lines.build(:survey_template_line_id=>r.id)
+      r.children.each do |l|
+        @survey_response.survey_response_lines.build(:survey_template_line_id=>l.id)
+      end
+
     end
 
     respond_to do |format|

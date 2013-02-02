@@ -1,15 +1,9 @@
 <%= form_for @survey_template_line, :html => { :class => 'form-horizontal' } do |f| %>
     <%= f.hidden_field :survey_template_id, :class => 'number_field' %>
     <div class="control-group">
-      <%= f.label :progressivo, :class => 'control-label' %>
+      <%= f.label :parent_id, "Gruppo",:class => 'control-label' %>
       <div class="controls">
-        <%= f.text_field :progressivo, :class => 'number_field' %>
-      </div>
-    </div>
-    <div class="control-group">
-      <%= f.label :gruppo, :class => 'control-label' %>
-      <div class="controls">
-        <%= f.text_field :gruppo, :class => 'input-block-level' %>
+        <%= f.select :parent_id, options_from_collection_for_select(@survey_template_line.gruppi, :id, :gruppo, @survey_template_line.parent_id),{}, :class => 'span8' %>
       </div>
     </div>
     <div class="control-group">
@@ -35,7 +29,7 @@
   <div class="control-group">
     <%= f.label :um, :class => 'control-label' %>
     <div class="controls">
-      <%= f.select :um, options_for_select(APP_CONFIG[:um].split(",")), :class => 'text_field' %>
+      <%= f.text_field :um, :class => 'text_field' %>
     </div>
   </div>
 
