@@ -1,0 +1,71 @@
+<%= form_for @survey_template, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :nome, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :nome, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :attivo, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.check_box :attivo, :class => 'check_box' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :categoria, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :categoria, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :descrizione, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :descrizione, :class => 'input-block-level' %>
+    </div>
+  </div>
+  <%unless  @survey_template.new_record?%>
+    <div class="row">
+      <h4><%=t "Campi"%></h4>
+    </div>
+    <table class="table table-striped table-condensed">
+      <thead>
+      <tr>
+        <th><%= "gruppo" %></th>
+        <th><%= "codice" %></th>
+        <th><%= "domanda" %></th>
+        <th><%= "um" %></th>
+        <th><%= "tipo" %></th>
+        <th><%= "ultima modifica" %></th>
+      </tr>
+      </thead>
+      <tbody>
+      <% @survey_template_lines.order("progressivo asc").each do |survey_template_line| %>
+          <tr>
+            <td><%= survey_template_line.gruppo %></td>
+            <td><%= survey_template_line.codice %></td>
+            <td><%= survey_template_line.domanda %></td>
+            <td><%= survey_template_line.um %></td>
+            <td><%= survey_template_line.tipo_dato %></td>
+            <td><%=l survey_template_line.updated_at.to_date %></td>
+            <td>
+              <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                          edit_survey_template_line_path(survey_template_line), :class => 'btn btn-mini' %>
+              <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                          survey_template_line_path(survey_template_line),
+                          :method => :delete,
+                          :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                          :class => 'btn btn-mini btn-danger' %>
+            </td>
+          </tr>
+      <% end %>
+      </tbody>
+    </table>
+
+    <%= link_to t('.new', :default => "Nuova Domanda"), new_survey_template_line_path(:survey_template_id=>@survey_template.id),:class => 'btn btn-primary' %>
+
+    <%end %>
+    <div class="form-actions">
+    <%= f.submit "Salva", :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => "Torna alla lista"),survey_templates_path, :class => 'btn' %>
+  </div>
+<% end %>

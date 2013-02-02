@@ -1,0 +1,44 @@
+<%- model_class = SurveyTemplateLine -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:template_id) %></th>
+      <th><%= model_class.human_attribute_name(:domanda) %></th>
+      <th><%= model_class.human_attribute_name(:tipo_dato) %></th>
+      <th><%= model_class.human_attribute_name(:codice) %></th>
+      <th><%= model_class.human_attribute_name(:gruppo) %></th>
+      <th><%= model_class.human_attribute_name(:um) %></th>
+      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @survey_template_lines.each do |survey_template_line| %>
+      <tr>
+        <td><%= link_to survey_template_line.id, survey_template_line_path(survey_template_line) %></td>
+        <td><%= survey_template_line.survey_template_id %></td>
+        <td><%= survey_template_line.domanda %></td>
+        <td><%= survey_template_line.tipo_dato %></td>
+        <td><%= survey_template_line.codice %></td>
+        <td><%= survey_template_line.gruppo %></td>
+        <td><%= survey_template_line.um %></td>
+        <td><%=l survey_template_line.created_at %></td>
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_survey_template_line_path(survey_template_line), :class => 'btn btn-mini' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      survey_template_line_path(survey_template_line),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                      :class => 'btn btn-mini btn-danger' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to t('.new', :default => "Nuovo"),new_survey_template_line_path,:class => 'btn btn-primary' %>

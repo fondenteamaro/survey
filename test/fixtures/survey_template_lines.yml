@@ -1,0 +1,15 @@
+one:
+  template_id: 1
+  domanda: MyString
+  tipo_dato: false
+  codice: MyString
+  gruppo: MyString
+  um: MyString
+
+two:
+  template_id: 1
+  domanda: MyString
+  tipo_dato: false
+  codice: MyString
+  gruppo: MyString
+  um: MyString

@@ -1,0 +1,31 @@
+<%- model_class = SurveyTemplateLine -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human %></h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt><strong><%= model_class.human_attribute_name(:template_id) %>:</strong></dt>
+  <dd><%= @survey_template_line.template_id %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:domanda) %>:</strong></dt>
+  <dd><%= @survey_template_line.domanda %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:tipo_dato) %>:</strong></dt>
+  <dd><%= @survey_template_line.tipo_dato %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:codice) %>:</strong></dt>
+  <dd><%= @survey_template_line.codice %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:gruppo) %>:</strong></dt>
+  <dd><%= @survey_template_line.gruppo %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:um) %>:</strong></dt>
+  <dd><%= @survey_template_line.um %></dd>
+</dl>
+
+<div class="form-actions">
+  <%= link_to t('.back', :default => t("helpers.links.back")),
+              survey_template_lines_path, :class => 'btn'  %>
+  <%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_survey_template_line_path(@survey_template_line), :class => 'btn' %>
+  <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              survey_template_line_path(@survey_template_line),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-danger' %>
+</div>

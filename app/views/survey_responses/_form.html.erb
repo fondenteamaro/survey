@@ -1,0 +1,77 @@
+<%= form_for @survey_response, :html => { :class => 'form-horizontal' } do |f| %>
+  <%= f.hidden_field :survey_template_id, :class => 'number_field' %>
+  <%= f.hidden_field :user_id, :class => 'number_field' %>
+  <%= f.hidden_field :azienda, :class => 'number_field' %>
+
+  <div class="control-group">
+    <%= f.label :azienda, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :azienda, :class => 'text_field' , :disabled=>true%>
+    </div>
+  </div>
+    <div class="control-group">
+      <div class="span5">
+        <%= f.label :nome, :class => 'control-label' %>
+        <div class="controls">
+          <%= f.text_field :nome, :class => 'text_field' %>
+        </div>
+      </div>
+      <div class="span5">
+        <%= f.label :cognome, :class => 'control-label' %>
+        <div class="controls">
+          <%= f.text_field :cognome, :class => 'text_field' %>
+        </div>
+      </div>
+    </div>
+  <div class="control-group">
+    <div class="span5">
+      <%= f.label :telefono, :class => 'control-label' %>
+       <div class="controls">
+        <%= f.text_field :telefono, :class => 'text_field' %>
+       </div>
+    </div>
+    <div class="span5">
+      <%= f.label :email, :class => 'control-label' %>
+        <div class="controls">
+          <%= f.text_field :email, :class => 'text_field' %>
+        </div>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :data_compilazione, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.date_select :data_compilazione, :class => 'date_select' %>
+    </div>
+  </div>
+  <%gruppo = ""%>
+  <%= f.fields_for :survey_response_lines do |line| %>
+        <%=line.hidden_field :survey_template_line_id%>
+
+        <% unless line.object.gruppo.eql?(gruppo)%>
+           <%= content_tag :h3, line.object.gruppo, :class=>"label "  %>
+           <% gruppo=line.object.gruppo  %>
+
+        <%end%>
+
+        <div class="control-group">
+          <%= line.label :risposta, line.object.domanda, :class => ' span6' %>
+          <div class="controls">
+            <div class="input-prepend">
+              <%=content_tag :span, line.object.um, class: "add-on"%>
+              <%if line.object.tipo_dato === "numerico"%>
+                <%= line.text_field :risposta, :class => 'number_field' %>
+              <%else%>
+                <%= line.text_field :risposta, :class => 'text_field' %>
+              <%end%>
+            </div>
+          </div>
+
+        </div>
+  <%end%>
+
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                survey_responses_path(:survey_template_id=>@survey_response.survey_template_id), :class => 'btn' %>
+  </div>
+<% end %>

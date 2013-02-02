@@ -1,0 +1,11 @@
+one:
+  nome: MyString
+  attivo: false
+  categoria: MyString
+  descrizione: MyString
+
+two:
+  nome: MyString
+  attivo: false
+  categoria: MyString
+  descrizione: MyString

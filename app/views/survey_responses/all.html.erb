@@ -1,0 +1,46 @@
+<%- model_class = SurveyResponse -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => "Tutti i Questionari compilati" %></h1>
+</div>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th>Questionario</th>
+    <th>Azienda</th>
+    <th><%= model_class.human_attribute_name(:nome) %></th>
+    <th><%= model_class.human_attribute_name(:cognome) %></th>
+    <th><%= model_class.human_attribute_name(:telefono) %></th>
+    <th><%= model_class.human_attribute_name(:email) %></th>
+    <th><%= model_class.human_attribute_name(:user_id) %></th>
+    <th><%= model_class.human_attribute_name(:data_compilazione) %></th>
+    <th><%= model_class.human_attribute_name(:created_at) %></th>
+    <th><%=t '.actions', :default => t("helpers.actions") %></th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @survey_responses.each do |survey_response| %>
+      <tr>
+        <td><%= survey_response.survey_template.nome %></td>
+        <td><%= survey_response.azienda %></td>
+        <td><%= survey_response.nome %></td>
+        <td><%= survey_response.cognome %></td>
+        <td><%= survey_response.telefono %></td>
+        <td><%= survey_response.email %></td>
+        <td><%= survey_response.user_id %></td>
+        <td><%= survey_response.data_compilazione %></td>
+        <td><%=l survey_response.created_at %></td>
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_survey_response_path(survey_response), :class => 'btn btn-mini' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      survey_response_path(survey_response),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                      :class => 'btn btn-mini btn-danger' %>
+        </td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+
+

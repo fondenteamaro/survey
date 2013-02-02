@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  survey_template_id: 1
+  azienda: MyString
+  nome: MyString
+  cognome: MyString
+  telefono: MyString
+  email: MyString
+  user_id: 1
+  data_compilazione: 2013-02-01
+
+two:
+  survey_template_id: 1
+  azienda: MyString
+  nome: MyString
+  cognome: MyString
+  telefono: MyString
+  email: MyString
+  user_id: 1
+  data_compilazione: 2013-02-01
