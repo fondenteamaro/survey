@@ -2,45 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7daccfe-7401-4488-bea3-5a011bca1996" name="Default" comment="commit iniziale">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C29/8A0/sprockets%2Fa899e19256a0845205636938010c6fe5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C7A/170/sprockets%2Ff1663d34d4b6003379113df98f1433a5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C87/D30/sprockets%2Fde16f881902527d1914c6731e18aa767" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C8F/5C0/sprockets%2Fe97ab89756ae1809461c55073294ea09" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CBD/D00/sprockets%2Fe3f8364c2b4d83385c04d49c7109f639" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CD7/6F0/sprockets%2Fbd3936370d0f952ada5774e2230046ed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CDC/B50/sprockets%2Fc06386ca78e2481611ce70ed129c52a8" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CDE/910/sprockets%2Fc5aafc8087f52a7d4231339e94650a44" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D05/6B0/sprockets%2Fba302e5e48f3a48619a53be4b0894b12" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D14/810/sprockets%2F8a95ea36adb71f326817e58f437d052a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D17/4C0/sprockets%2F700827acd727b6fc8361f454c68a5cd7" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D21/EB0/sprockets%2F8ca4361726ccc72b26b98995711ff7fd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D28/210/sprockets%2Ffbba61c3312004d305da7fac36964c36" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D32/060/sprockets%2Ff7b5333cdc6d68777ec849796296da5d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D34/E60/sprockets%2Fc0d7920af5b1f8b963c351e22b3f0b84" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D3D/2B0/sprockets%2Ff4103e8369e7c5ec06f0641a9cea5e13" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D3D/400/sprockets%2F701ee7fffaf4894b47e08db0601802d1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D4E/1B0/sprockets%2Ff7cbd26ba1d28d48de824f0e94586655" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D5A/EA0/sprockets%2Fd771ace226fc8215a3572e0aa35bb0d6" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D5F/EF0/sprockets%2Fd2314cde5bcef18a70c543a267c702e3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D74/840/sprockets%2Fa779c39b918fdf6d4721053dcdd24ac4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D78/4E0/sprockets%2Ff63e922c2938d25afea48716b75ff1ad" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D7E/FD0/sprockets%2F8875039f0f1823eeec2f4e0e7fff3f06" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D9F/F20/sprockets%2Fbec7e8c2651f93cfea9068c20d34b2c5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DA4/0F0/sprockets%2Ff06749d7925c0f44082ddcd57cfeda0d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DB0/7D0/sprockets%2Fbcda2968faefa298e75d0419b60d96d9" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DC1/5A0/sprockets%2Ff86d6f88efd76632c4affbf6c788109d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DCD/CC0/sprockets%2Fa1fadf718ce6e046dd85b85cd5044bd3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DD1/5A0/sprockets%2Fd8812656f735cce6758d7b7baacabd0a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DD1/830/sprockets%2F71df84fe24b2c7d34af59e9e62aa50db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DD4/890/sprockets%2Fe4473fb1077b8df0aaca56ec93fd928d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DDC/400/sprockets%2Fcffd775d018f68ce5dba1ee0d951a994" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DDC/E20/sprockets%2F93b9fc7932ddf0c4fb7944ed0b77ab4f" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/E01/000/sprockets%2Fb617f7774ecf2555ccddc28cebc512dc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/sass/0d4c9f0d2b0d6f87f14484a1d4e3ecbe0e5806d3/scaffolds.css.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/sass/0d4c9f0d2b0d6f87f14484a1d4e3ecbe0e5806d3/survey_responses.css.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/sass/3ce14b5d9f3bf1a09c6c8c12cf22e1241988e10e/home.css.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/pids/server.pid" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="survey.iws" />
@@ -281,7 +242,11 @@
       <created>1359817719330</created>
       <updated>1359817719330</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit iniziale">
+      <created>1359817945743</created>
+      <updated>1359817945743</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
